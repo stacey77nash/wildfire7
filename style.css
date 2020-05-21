@@ -1,0 +1,312 @@
+* {
+	margin: 0px; 
+	padding: 0px;
+	text-decoration: none;
+}
+ html {
+ 	height: 100%;
+ 	box-sizing: border-box;
+ }
+body {
+	font-family: 'Cardo', serif;
+	letter-spacing: 2px;
+}
+/*This creates a color-changing background*/
+@keyframes bgcolor {
+    0% {
+        background-color: #45a3e5
+    }
+
+    30% {
+        background-color: #66bf39
+    }
+
+    60% {
+        background-color: #eb670f
+    }
+
+    90% {
+        background-color: #f35
+    }
+
+    100% {
+        background-color: #864cbf
+    }
+}
+
+body {
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+/*end of color-changing background section*/
+
+nav {
+	display: flex;
+	flex-direction: row;
+	position: fixed;
+	width: 100%;
+}
+nav ul{
+	display: flex;
+	background-color: #475F94;
+	padding: 15px;
+	width: 100%;
+}
+
+nav li {
+	display: flex;
+	font-size: 1.2em;
+	text-decoration: none;
+	width: 80%;
+}
+	
+nav a {
+	display: flex;
+	text-decoration: none;
+	color: #FFE5AD; 
+}
+
+main {
+	margin-top: 0px;
+	padding-top: 25px;
+	padding-bottom: 60px;
+	color: #FFE5AD;
+}
+
+main h1 { 
+	font-size: 3em;
+	padding: 35px 20px;
+	text-align: center;
+}
+
+main h2 {
+	display: block;
+	font-size: 1.8em;
+	padding: 15px;
+	text-align: center;
+}
+
+main h3 {
+	color: #4E0550;
+	font-size: 1.5em;
+	padding: 15px;	
+	text-align: center;
+
+}
+
+a:hover { 
+ 	color: #4E0550; 
+ 	text-decoration: none;
+ 	font-size: 1.1em;
+ }
+
+/*This section creates the rotation on the MEDIA page.*/
+.rotating {
+	display: block;
+	position: fixed;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+
+}
+
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+  from {
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.rotating {
+  -webkit-animation: rotating 9s linear infinite;
+  -moz-animation: rotating 9s linear infinite;
+  -ms-animation: rotating 9s linear infinite;
+  -o-animation: rotating 9s linear infinite;
+  animation: rotating 9s linear infinite;
+}
+
+/*end of rotation section*/
+
+button a{
+	font-size: 35px; 
+	color: white; 
+	text-decoration: none;
+}
+
+button a:hover {
+	font-size: 35px; 
+	color: #13BBAF; 
+	text-decoration: none;
+}	
+
+
+
+.address {
+	display: block;
+	text-align: center; 
+	color: #FFE5AD;
+	font-size: 1.5em;
+	padding: 20px;
+}	
+
+.address p {
+	color: #FFE5AD;
+
+}
+
+.address a {
+	color: #4E0550;
+}
+
+.address a:hover {
+	color: #FFE5AD;
+	font-size: 1.1em;
+}
+
+.mission {
+	color:  #FFE5AD;
+	padding-top: 30px;
+	text-align: justify;
+	margin: 20px;
+	font-size: 1.5em;
+	line-height: 2rem;
+
+}
+.media {
+	padding: 20px;
+	font-size: 1.5em;
+}
+
+.media p {
+	color: #FFE5AD;
+	text-align: center;
+}
+
+.media a {
+	color: #4E0550;
+	text-decoration: none;
+}
+
+.media a:hover {
+	color: #FFE5AD;
+	font-size: 1.1em;
+}
+
+.outreach {
+	color:  #FFE5AD;
+	padding-top: 30px;
+	text-align: center;
+	margin: 20px;
+	font-size: 1.5em;
+	line-height: 2rem;
+}
+
+.outreach img {
+	display: flex;
+	max-height: 20%;
+	max-width: 20%;
+	align-content: center;
+}
+
+
+.contact {
+	color:  #FFE5AD;
+	padding: 30px;
+	margin: auto;
+	line-height: 2.5em;
+	text-align: center;
+}
+
+.flex-container-media {
+	display: flex;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+	height: 200px;
+	
+}
+.flex-container-media img {
+	display: flex;
+	justify-content: flex-end;
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+	height: 200px;
+}
+
+.fb h3 {
+	display: flex;
+	justify-content: center;
+	font-size: 1.7em;
+
+}
+.radio h3 {
+	display: flex;
+	justify-content: center;
+	font-size: 1.7em;
+}
+.contact img {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	padding-top: 5px;
+}
+
+.flex-container {
+	display: flex; 
+	justify-content: space-around;
+}
+
+.email img {
+	display: flex;
+	justify-content: flex-end;
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+	height: 200px;
+}
+
+.facebook img {
+	display: flex;
+	justify-content: flex-end;
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+	height: 200px;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+	position: relative;
+	color: #FFE5AD;
+	font-size: .7em; 
+}
+	
+
