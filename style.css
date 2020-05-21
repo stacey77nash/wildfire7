@@ -48,9 +48,12 @@ nav {
 	flex-direction: row;
 	position: fixed;
 	width: 100%;
+
 }
+
 nav ul{
 	display: flex;
+
 	background-color: #475F94;
 	padding: 15px;
 	width: 100%;
@@ -77,8 +80,10 @@ main {
 }
 
 main h1 { 
-	font-size: 3em;
-	padding: 35px 20px;
+	color:  #FFE5AD;
+	padding: auto;
+	margin: auto;
+	font-size: 2em;
 	text-align: center;
 }
 
@@ -222,22 +227,30 @@ form {
 	font-size: 1.1em;
 }
 
-.outreach {
+.media h1 {
 	color:  #FFE5AD;
-	padding-top: 30px;
+	padding-top: 2em;
 	text-align: center;
-	margin: 20px;
-	font-size: 1.5em;
-	line-height: 2rem;
+	margin: auto;
+	font-size: 2em;
+	line-height: 2em;
 }
 
-.outreach img {
+/*.outreach h1 {
+	display: flex;
+	flex-wrap: wrap;
+	padding: auto;
+	margin: auto;
+	font-size: .2em;
+	line-height: 2.5em;
+	text-align: center;
+}*/
+.media img {
 	display: flex;
 	max-height: 20%;
 	max-width: 20%;
 	align-content: center;
 }
-
 
 .contact {
 	color:  #FFE5AD;
