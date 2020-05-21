@@ -47,15 +47,15 @@ nav {
 	display: flex;
 	flex-direction: row;
 	position: fixed;
+	padding-bottom: 15px;
 	width: 100%;
 
 }
 
 nav ul{
 	display: flex;
-
+	position: absolute;
 	background-color: #475F94;
-	padding: 15px;
 	width: 100%;
 }
 
@@ -63,6 +63,7 @@ nav li {
 	display: flex;
 	font-size: 1.2em;
 	text-decoration: none;
+	padding: 10px;
 	width: 80%;
 }
 	
@@ -75,16 +76,19 @@ nav a {
 main {
 	margin-top: 0px;
 	padding-top: 25px;
-	padding-bottom: 60px;
+	padding-bottom: 25px;
 	color: #FFE5AD;
 }
 
 main h1 { 
+	display: flex;
+	justify-content: center;
 	color:  #FFE5AD;
-	padding: auto;
+	padding-top: 5%;
 	margin: auto;
-	font-size: 2em;
+	font-size: 2.5em;
 	text-align: center;
+	
 }
 
 main h2 {
@@ -168,6 +172,12 @@ button a:hover {
 	text-decoration: none;
 }	
 
+form {
+	display: flex;
+	justify-content: center;
+	width: auto;
+	height: auto;
+}
 
 
 .address {
@@ -192,11 +202,7 @@ button a:hover {
 	font-size: 1.1em;
 }
 
-form {
-	text-align: center;
-	padding-top: 1.5em;
-	padding-bottom: 1.5em;
-}
+
 
 .mission {
 	color:  #FFE5AD;
@@ -208,6 +214,7 @@ form {
 
 }
 .media {
+
 	padding: 20px;
 	font-size: 1.5em;
 }
@@ -227,24 +234,22 @@ form {
 	font-size: 1.1em;
 }
 
-.media h1 {
+.media h2 {
+	display: flex;
+	justify-content: center;
 	color:  #FFE5AD;
-	padding-top: 2em;
+	padding-top: 30px;
 	text-align: center;
 	margin: auto;
 	font-size: 2em;
-	line-height: 2em;
+	line-height: 1em;
 }
 
-/*.outreach h1 {
+.media h3, h4 {
 	display: flex;
-	flex-wrap: wrap;
-	padding: auto;
-	margin: auto;
-	font-size: .2em;
-	line-height: 2.5em;
+	justify-content: center;
 	text-align: center;
-}*/
+}
 .media img {
 	display: flex;
 	max-height: 20%;
@@ -254,10 +259,19 @@ form {
 
 .contact {
 	color:  #FFE5AD;
-	padding: 30px;
+	padding: 20px;
 	margin: auto;
-	line-height: 2.5em;
+	line-height: 2em;
 	text-align: center;
+	font-size: 1.5em;
+}
+.contact h2 {
+	color: #4E0550;
+}
+
+.contact h3 {
+	color:  #FFE5AD;
+	
 }
 
 .flex-container-media {
@@ -312,7 +326,7 @@ form {
 	margin-left: auto;
 	margin-right: auto;
 	width: auto;
-	height: 200px;
+	height: 175px;
 }
 /*.doante img {
 	display: flex;
@@ -331,7 +345,7 @@ form {
 	margin-left: auto;
 	margin-right: auto;
 	width: auto;
-	height: 200px;
+	height: 175px;
 }
 
 footer {
