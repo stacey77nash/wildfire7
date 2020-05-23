@@ -347,7 +347,19 @@ form {
 	width: auto;
 	height: 175px;
 }
-
+.thanks img {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+	padding-top: 1.5em;
+	height: 300px;
+}
+.thanks h3 {
+	color: #FFE5AD;
+}
 footer {
 	clear: both;
 	text-align: center;
