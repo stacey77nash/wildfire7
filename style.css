@@ -177,6 +177,7 @@ form {
 	justify-content: center;
 	width: auto;
 	height: auto;
+	padding: 1.5em;
 }
 
 
@@ -323,12 +324,12 @@ form {
 .email img {
 	display: flex;
 	justify-content: center;
-	margin-left: auto;
-	margin-right: auto;
+	margin: auto;
 	width: auto;
-	height: 175px;
+	height: 150px;
+	padding: auto;
 }
-/*.doante img {
+/*.donate img {
 	display: flex;
 	justify-content: flex-end;
 	flex-flow: wrap;
@@ -342,21 +343,28 @@ form {
 	display: flex;
 	justify-content: center;
 	flex-flow: wrap;
-	margin-left: auto;
-	margin-right: auto;
+	margin: auto;
 	width: auto;
-	height: 175px;
+	height: 150px;
+	padding: auto;
 }
 .thanks img {
 	display: flex;
 	justify-content: center;
-	align-items: center;
-	margin-left: auto;
-	margin-right: auto;
+	flex-wrap: wrap;
+	/*margin-left: auto;
+	margin-right: auto;*/
 	width: auto;
 	padding-top: 1.5em;
 	height: 300px;
 }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 .thanks h3 {
 	color: #FFE5AD;
 }
