@@ -1,4 +1,6 @@
-# wgc2
+# wildfire7
+
+FIrst website built for a client. 
 Correcting the uploaded file locations. 
 I had to upload this site many times. Let's see if it works this time. 
 Site is working. Various tweaks listed in notes. 
